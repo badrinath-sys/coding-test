@@ -73,7 +73,7 @@ function DescSort($item1,$item2)
 }
 usort($result, 'DescSort');
 
-$names = array_column($result, 'speed');
+$names = array_column($result, 'name');
 echo implode("<br>", $names);
 
 ?>
