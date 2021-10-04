@@ -74,6 +74,6 @@ function DescSort($item1,$item2)
 usort($result, 'DescSort');
 
 $names = array_column($result, 'name');
-echo implode("<br>", $names);
+echo implode("\n", $names);
 
 ?>
