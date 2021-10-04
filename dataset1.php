@@ -24,7 +24,7 @@ $array2 = preg_split("/\r\n|\n|\r/", $dataset2);
 $array_set1=[];
 $array_set2=[];
 $array_set=[];
-print_r($array1);
+
 
 for($num=1;$num<count($array1); $num++)
 {
